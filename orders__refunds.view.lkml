@@ -1,5 +1,5 @@
 view: orders__refunds {
-  sql_table_name: shopify.orders__refunds ;;
+  sql_table_name: goodee_world.orders__refunds ;;
 
   dimension: id {
     primary_key: yes

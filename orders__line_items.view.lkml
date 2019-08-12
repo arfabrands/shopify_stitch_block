@@ -1,5 +1,5 @@
 view: orders__line_items {
-  sql_table_name: shopify.orders__line_items ;;
+  sql_table_name: goodee_world.orders__line_items ;;
 
   dimension: id {
     primary_key: yes
