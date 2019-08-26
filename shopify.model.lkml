@@ -30,7 +30,7 @@ explore: orders {
 
     join: customer_order_facts {
       view_label: "Customers"
-      sql_on: ${customers._id} = ${customer_order_facts.customer_id} ;;
+      sql_on: ${customers.id} = ${customer_order_facts.customer_id} ;;
       type: left_outer
       relationship: many_to_one
     }
