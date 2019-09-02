@@ -150,7 +150,7 @@ view: customers {
 
   dimension: total_spent_per_customer {
     type: number
-    sql: ${TABLE}.total_spent ;;
+    sql: ${TABLE}.total_spent::float ;;
   }
 
 
