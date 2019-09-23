@@ -612,10 +612,10 @@ view: orders {
 #     sql: ${TABLE}.shipping_address__phone ;;
 #   }
 #
-#   dimension: shipping_address__province {
-#     type: string
-#     sql: ${TABLE}.shipping_address__province ;;
-#   }
+  dimension: shipping_address__province {
+    type: string
+    sql: ${TABLE}.shipping_address__province ;;
+  }
 #
 #   dimension: shipping_address__province_code {
 #     type: string
