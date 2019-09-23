@@ -11,7 +11,7 @@ view: customers {
   dimension: _id {
     type: number
     hidden: yes
-    sql: ${TABLE}._id ;;
+    sql: ${TABLE}.id ;;
   }
 
 

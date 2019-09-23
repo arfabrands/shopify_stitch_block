@@ -367,7 +367,7 @@
   - name: customer_id
     title: customer_id
     type: field_filter
-    default_value: '2372846215'
+    default_value: '1777199415396'
     allow_multiple_values: true
     required: false
     model: shopify

@@ -10,7 +10,7 @@ view: products {
   dimension: _id {
     hidden: yes
     type: number
-    sql: ${TABLE}._id ;;
+    sql: ${TABLE}.id ;;
   }
 
 
