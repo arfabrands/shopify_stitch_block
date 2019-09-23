@@ -793,7 +793,6 @@ view: customer_order_facts {
   measure: total_lifetime_orders {
     type: sum
     sql: ${lifetime_orders} ;;
-    value_format_name: usd_0
   }
 
   set: detail {

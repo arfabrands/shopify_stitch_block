@@ -52,16 +52,6 @@ view: customers {
     sql: ${TABLE}.default_address__company ;;
   }
 
-#   dimension: default_address__country {
-#     type: string
-#     sql: ${TABLE}.default_address__country ;;
-#   }
-
-#   dimension: default_address__country_code {
-#     type: string
-#     sql: ${TABLE}.default_address__country_code ;;
-#   }
-
   dimension: country {
     type: string
     map_layer_name: countries
@@ -73,41 +63,10 @@ view: customers {
     sql: ${TABLE}.default_address__default ;;
   }
 
-#   dimension: first_name {
-#     type: string
-#     sql: ${TABLE}.default_address__first_name ;;
-#   }
-#
-#   dimension: default_address__id {
-#     type: number
-#     hidden: yes
-#     sql: ${TABLE}.default_address__id ;;
-#   }
-#
-#   dimension: last_name {
-#     type: string
-#     sql: ${TABLE}.default_address__last_name ;;
-#   }
-
-#   dimension: default_address__name {
-#     type: string
-#     sql: ${TABLE}.default_address__name ;;
-#   }
-
   dimension: phone {
     type: string
     sql: ${TABLE}.default_address__phone ;;
   }
-
-#   dimension: default_address__province {
-#     type: string
-#     sql: ${TABLE}.default_address__province ;;
-#   }
-#
-#   dimension: default_address__province_code {
-#     type: string
-#     sql: ${TABLE}.default_address__province_code ;;
-#   }
 
   dimension: zip {
     type: string
@@ -191,7 +150,7 @@ view: customers {
 
   dimension: total_spent_per_customer {
     type: number
-    sql: ${TABLE}.total_spent ;;
+    sql: ${TABLE}.total_spent::float ;;
   }
 
 
